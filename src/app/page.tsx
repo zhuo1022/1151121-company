@@ -185,11 +185,10 @@ export default function Home() {
               <p>
                 從最基礎的墨線圖，到景觀公設與傢俱配置彩圖，我們以嚴謹的製圖標準校對每一道牆、每一扇門窗，並以客製而溫潤的色彩，讓圖面既清楚易讀，也兼具美感與質感。
               </p>
-              <dl className="grid grid-cols-3 gap-4 border-t border-ink/15 pt-8 sm:gap-6 sm:pt-10">
+              <dl className="grid grid-cols-2 gap-4 border-t border-ink/15 pt-8 sm:gap-6 sm:pt-10">
                 {[
                   { n: "30", u: "年+", l: "製圖經驗" },
                   { n: "1000", u: "案+", l: "完成建案" },
-                  { n: "100", u: "家+", l: "合作廠商" },
                 ].map((s) => (
                   <div key={s.l}>
                     <dt className="sr-only">{s.l}</dt>
